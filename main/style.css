@@ -1,0 +1,75 @@
+:root{
+
+--primary-color: #FF8811;
+--secondary-color: #FAFCFF;
+--third-color: #37393A;
+
+--primary-font: 'Roboto', sans-serif;
+--secondary-font: 'Roboto', sans-serif;
+
+--primary-font-size: 1.7rem;
+--secondary-font-size: 2.5rem;
+
+--primary-font-weight: 400;
+--secondary-font-weight: 600;
+}
+body{
+
+font-family: var(--primary-font);
+font-size: var(--primary-font-size);
+font-weight: var(--primary-font-weight);
+
+background-color: var(--secondary-color);
+margin: 0;
+}
+nav{
+
+height: 7.813;
+background-color: var(--third-color);
+
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    Justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+p{
+    color: var(--secondary-color);
+    font-size: var(--primary-font-size);
+}
+
+.user{
+
+    width: 5rem;
+    height: auto;
+    margin: -1rem 0 0 0;
+}
+.logo{
+    
+    width: 7rem;
+    height: auto;
+}
+.logo_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem; 
+}
+
+.titel{
+    font-size: var(--secondary-font-size) ;
+    color: var(--primary-color);
+}
