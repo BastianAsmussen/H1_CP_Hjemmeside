@@ -1,0 +1,46 @@
+:root {
+
+    --primary-color: #FF8811;
+    --secondary-color: #FAFCFF;
+    --third-color: #37393A;
+}
+
+.title {
+
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.list {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 0;
+    padding: 0;
+    
+    justify-items: center;
+}
+
+.item {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--third-color);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 20rem;
+    height: auto;
+}
+
+.item img {
+
+    max-height: 20rem;
+    max-width: auto;
+}
