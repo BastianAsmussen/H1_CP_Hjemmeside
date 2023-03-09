@@ -13,7 +13,7 @@ function casperMode() {
     isCasperMode = !isCasperMode;
 
     if (isCasperMode) {
-
+        
         document.body.style.background = casperBackground;
 
         console.log('Casper appears!');
@@ -21,7 +21,7 @@ function casperMode() {
     } else {
 
         document.body.style.background = defaultBackground;
-
+        
         console.log('Casper disappears!');
     }
 
