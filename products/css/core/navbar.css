@@ -53,18 +53,6 @@ nav {
     margin: 0 10px;
 }
 
-.logo span {
-
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 10px;
-
-    /* Center the text horizontally */
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 .logo img {
 
     width: 100px;
