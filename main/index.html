@@ -1,74 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tune Town</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="../products/js/casper.js" defer></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/products/css/core/navbar.css" />
+    <script src="./js/nav.js" defer></script>
+
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
-</head>
-<body>
-    <nav> 
-        <ul>
-            <li>
-                <a href="../main/index.html">
-                    <div class="logo-box">
-                        <img class="logo" src="../img/sound.png" alt="image">
-                        <p class="title">Tune Town</p>
-                    </div>
-                </a>
-            </li>
-            <div class="instruments">
-            <li>
-                <a href="../products/guitar.html">
-                    <p>Guitar</p>
-                </a>
-            </li>
-            <li>
-                <a href="../products/bass.html">
-                    <p>Bass</p>
-                </a>
-            </li>
-            <li>
-                <a href="../products/trommer.html">
-                    <p>Trommer</p>
-                </a> 
-            </li>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="nav-brand">
+          <a href="/main/index.html">
+            <img src="../img/sound.png" alt="Logo" />
+          </a>
         </div>
-            <li>
-                <a href="../main/user.html">
-                     <img class="user" src="../img/user.png"> 
-                </a>
-            </li>
+        <div class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="../products/guitar.html">Guitar</a></li>
+          <li><a href="../products/bass.html">Bass</a></li>
+          <li><a href="../products/trommer.html">Trommer</a></li>
         </ul>
+      </div>
     </nav>
 
-    <div class="title-slogan">
-        <h1>Tune Town</h1>
-        <h3>Find your rhythm with Tune Town!</p>
-    </div>
-
     <div class="grid-container">
-        <div class="grid-item">
-            <img src="../img/guitars/1.png" alt="guitar">
-            <a href="">
-                <p></p>
-            </a>
-        </div>
-        <div class="grid-item">
-            <img src="../img/bass/1.png" alt="bass">
-            <a href="">
-                <p></p>
-            </a>
-        </div>
-        <div class="grid-item">
-            <img src="../img/drums/1.png" alt="trommer">
-            <a href="">
-                <p></p>
-            </a>
-        </div>
+      <div class="grid-item">
+        <img src="../img/guitars/1.png" alt="guitar" />
+        <a href="">
+          <p></p>
+        </a>
+      </div>
+      <div class="grid-item">
+        <img src="../img/bass/1.png" alt="bass" />
+        <a href="">
+          <p></p>
+        </a>
+      </div>
+      <div class="grid-item">
+        <img src="../img/drums/1.png" alt="trommer" />
+        <a href="">
+          <p></p>
+        </a>
+      </div>
     </div>
-</body>
+  </body>
 </html>

@@ -14,11 +14,6 @@
     --secondary-font-weight: 600;
 }
 
-html {
-
-    
-}
-
 body {
 
     font-family: var(--primary-font);
@@ -31,43 +26,10 @@ body {
     padding: 0;
 }
 
-nav {
-
-    height: 5rem;
-    background-color: var(--third-color);
-}
-
-nav ul {
-
-    list-style-type: none;
-
-    margin: 0;
-    
-    overflow: hidden;
-    display: flex;
-    
-    Justify-content: space-between;
-    align-items: center;
-}
-
-nav li {
-    
-    display: inline-block;
-    padding: 10px;
-}
-
 p {
 
     color: var(--secondary-color);
     font-size: var(--primary-font-size);
-}
-
-.user {
-
-    width: 3rem;
-    height: auto;
-    
-    margin: -1rem 0 0 0;
 }
 
 .logo {
@@ -86,7 +48,7 @@ p {
     height: 5rem;
 }
 
-.title{
+.title {
 
     font-size: var(--secondary-font-size) ;
     color: var(--primary-color);
