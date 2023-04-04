@@ -12,33 +12,18 @@
     
     --primary-font-weight: 400;
     --secondary-font-weight: 600;
-<<<<<<< Updated upstream
-    
 }
 
 html {
      
-    background: url(../img/background.jpg) no-repeat center center fixed; 
+    background: url(./img/background.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
-    z-index: -1;
-=======
->>>>>>> Stashed changes
-    
+    z-index: -1;   
 }
- 
-html {
-    background: url(../img/background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-    z-index: -1;
-    
-}
- 
+
 body {
  
     font-family: var(--primary-font);
