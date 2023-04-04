@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 const defaultBackground = document.body.style.background;
 const casperBackground = 'url(../img/casper.png)';
 
@@ -35,4 +36,25 @@ function checkMode() {
 
         document.body.style.background = casperBackground;
     }
+=======
+let showCasper = document.cookie.indexOf("showCasper=true") > -1;
+
+//updateCasper();
+
+function toggleCasper() {
+
+    // Toggle the showCasper variable.
+    showCasper = !showCasper;
+    
+    updateCasper();
+}
+
+function updateCasper() {
+
+    // Update the cookie.
+    document.cookie = "showCasper=" + showCasper;
+
+    // If showCasper is true, show Casper as the background image.
+    document.body.style.backgroundImage = showCasper ? "url('../img/casper.png')" : "none";
+>>>>>>> Stashed changes
 }

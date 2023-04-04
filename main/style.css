@@ -12,138 +12,151 @@
     
     --primary-font-weight: 400;
     --secondary-font-weight: 600;
-    }
-    body{
+}
+
+html {
+
     
+}
+
+body {
+
     font-family: var(--primary-font);
     font-size: var(--primary-font-size);
     font-weight: var(--primary-font-weight);
-    
+
     background-color: var(--secondary-color);
+
     margin: 0;
     padding: 0;
-    }
-    /*
-    html { 
-        background: url(../img/background.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover; 
-       z-index: -1;
-      }
-      */
-    
-    nav{
-    
+}
+
+nav {
+
     height: 5rem;
     background-color: var(--third-color);
-    
-    
-    }
-    
-    nav ul{
-        list-style-type: none;
-        margin: 0;
-        overflow: hidden;
-        display: flex;
-        Justify-content: space-between;
-        align-items: center;
-    }
-    
-    nav li{
-        display: inline-block;
-        padding: 10px;
-    
-    }
-    
-    p{
-        color: var(--secondary-color);
-        font-size: var(--primary-font-size);
-    }
-    
-    .user{
-    
-        width: 3rem;
-        height: auto;
-        margin: -1rem 0 0 0;
-    }
-    .logo{
-        
-        width: 3rem;
-        height: auto;
-    }
-    .logo-box{
-        display: flex;
-        align-items: center;
-        align-content: center;
-        height: 5rem;
-         
-        
-    }
-    
-    .title{
-        font-size: var(--secondary-font-size) ;
-        color: var(--primary-color);
-      
-    }
-    
-    
-    .title-slogan{
-       
-        font-size: var(--primary-font-size);
-        margin: auto;
-        width: 50%;
-        padding: 10px;
-        
-    }
-    
-    .title-slogan h1{
-        margin: 0;
-        padding: 0;
-        color: var(--primary-color);
-        display: flex;
-        justify-content: center;
-        
-    }
-    
-    .title-slogan h3{
-        margin: 0;
-        padding: 0;
-        color: var(--third-color);
-        display: flex;
-        justify-content: center;
-    }
+}
 
-    .grid-container {
-        
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1rem;
-        margin: 0;
-        padding: 0;
-        
-        justify-items: center;
-    }
+nav ul {
+
+    list-style-type: none;
+
+    margin: 0;
     
-    .grid-item {
+    overflow: hidden;
+    display: flex;
     
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--secondary-color);
-        border: 1px solid var(--third-color);
-        border-radius: 5px;
-        padding: 1rem;
-        margin: 1rem;
-        width: 20rem;
-        height: auto;
-    }
+    Justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
     
-    .item img {
+    display: inline-block;
+    padding: 10px;
+}
+
+p {
+
+    color: var(--secondary-color);
+    font-size: var(--primary-font-size);
+}
+
+.user {
+
+    width: 3rem;
+    height: auto;
     
-        max-height: 20rem;
-        max-width: auto;
-    }
+    margin: -1rem 0 0 0;
+}
+
+.logo {
+
+    width: 3rem;
+    height: auto;
+}
+
+.logo-box {
+
+    display: flex;
+
+    align-items: center;
+    align-content: center;
     
+    height: 5rem;
+}
+
+.title{
+
+    font-size: var(--secondary-font-size) ;
+    color: var(--primary-color);
+}
+
+
+.title-slogan {
+    
+    font-size: var(--primary-font-size);
+    margin: auto;
+
+    width: 50%;
+    padding: 10px;
+}
+
+.title-slogan h1 {
+
+    margin: 0;
+    padding: 0;
+    
+    color: var(--primary-color);
+
+    display: flex;
+    justify-content: center;
+}
+
+.title-slogan h3 {
+
+    margin: 0;
+    padding: 0;
+
+    color: var(--third-color);
+    
+    display: flex;
+    
+    justify-content: center;
+}
+
+.grid-container {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+    
+    justify-items: center;
+}
+
+.grid-item {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--secondary-color);
+    border: 1px solid var(--third-color);
+    border-radius: 5px;
+    
+    padding: 1rem;
+    margin: 1rem;
+    
+    width: 20rem;
+    height: auto;
+}
+
+.item img {
+
+    max-height: 20rem;
+    max-width: auto;
+}
